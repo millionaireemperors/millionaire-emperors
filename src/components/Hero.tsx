@@ -14,16 +14,18 @@ export function Hero() {
           <div className="space-y-4 mb-8 text-left">
             <p className="text-gray-300">✓ Step-by-step guide to building profitable online businesses</p>
             <p className="text-gray-300">✓ Strategies used by successful digital entrepreneurs</p>
-            <p className="text-gray-300">✓ Exclusive Millionaire Routine Planner included as FREE bonus</p>
+            <p className="text-gray-300">✓ Millionaire Routine Planner included as FREE bonus</p>
           </div>
-          <Button glowing className="text-xl">
-            Get Started Now - Only $19.99
-          </Button>
+          <a href="https://millionaireemperors.gumroad.com/l/digitalempire" target="_blank" rel="noopener noreferrer">
+            <Button glowing className="text-xl">
+              Get Started Now - Only $19.99
+            </Button>
+          </a>
         </div>
         <div className="flex-1 relative">
           <div className="w-full max-w-md mx-auto">
             <img
-              src="https://i.imgur.com/zBbcC36.png"
+              src="https://i.imgur.com/0OULep9.png"
               alt="Digital Empire Ebook"
               className="w-full h-auto rounded-lg shadow-2xl shadow-emperor-white/20 hover:shadow-emperor-white/40 transition-all duration-300"
               style={{ objectFit: 'contain' }}

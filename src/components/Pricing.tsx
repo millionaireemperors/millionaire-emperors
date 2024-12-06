@@ -3,7 +3,7 @@ import { Button } from './Button';
 
 const benefits = [
   'Complete Digital Empire Ebook',
-  'Exclusive Millionaire Routine Planner (FREE Bonus)',
+  'Millionaire Routine Planner (FREE Bonus)',
   'Lifetime Updates',
 ];
 
@@ -26,9 +26,11 @@ export function Pricing() {
               </div>
             ))}
           </div>
-          <Button glowing className="text-xl mb-6">
-            Get Instant Access <ArrowRight className="inline-block ml-2" />
-          </Button>
+          <a href="https://millionaireemperors.gumroad.com/l/digitalempire" target="_blank" rel="noopener noreferrer">
+            <Button glowing className="text-xl mb-6">
+              Get Instant Access <ArrowRight className="inline-block ml-2" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

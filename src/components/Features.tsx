@@ -23,7 +23,7 @@ const features = [
   {
     icon: Calendar,
     title: 'Premium Planner (FREE)',
-    description: 'Worth $97 - Structure your day like successful millionaires',
+    description: 'Structure your day like successful millionaires',
   },
   {
     icon: Target,

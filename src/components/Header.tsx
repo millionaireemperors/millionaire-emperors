@@ -7,7 +7,9 @@ export function Header() {
         <h1 className="font-heading text-2xl text-emperor-white">
           Millionaire Emperors
         </h1>
-        <Button glowing>Claim Your Digital Empire Now</Button>
+        <a href="https://millionaireemperors.gumroad.com/l/digitalempire" target="_blank" rel="noopener noreferrer">
+          <Button glowing>Claim Your Digital Empire Now</Button>
+        </a>
       </div>
     </header>
   );

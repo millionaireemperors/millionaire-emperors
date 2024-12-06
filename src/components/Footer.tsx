@@ -1,15 +1,11 @@
 import {
-  Facebook,
   Instagram,
-  Linkedin,
-  Twitter,
+  Youtube,
 } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Facebook, href: '#' },
-  { icon: Twitter, href: '#' },
-  { icon: Instagram, href: '#' },
-  { icon: Linkedin, href: '#' },
+  { icon: Instagram, href: 'https://www.instagram.com/millionaire.emperors/' },
+  { icon: Youtube, href: 'https://www.youtube.com/channel/UC3Sr83uHRAnqCnVCJLQb18Q' },
 ];
 
 export function Footer() {
@@ -32,14 +28,8 @@ export function Footer() {
             ))}
           </div>
           <div className="flex gap-8">
-            <a href="#" className="text-gray-400 hover:text-emperor-gold">
-              About
-            </a>
-            <a href="#" className="text-gray-400 hover:text-emperor-gold">
+            <a href="mailto:millionaireemperors@gmail.com" className="text-gray-400 hover:text-emperor-gold">
               Contact
-            </a>
-            <a href="#" className="text-gray-400 hover:text-emperor-gold">
-              Terms
             </a>
           </div>
         </div>
