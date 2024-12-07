@@ -9,7 +9,7 @@ export function Hero() {
             Transform Your Life with Digital Empire
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl">
-            Join thousands of successful entrepreneurs who have already unlocked their financial freedom using our proven strategies. Get instant access to the blueprint that's generating millions in online revenue.
+            Join thousands of successful entrepreneurs who have already unlocked their financial freedom using digital strategies. Get instant access to the methods that are generating millions in online revenue.
           </p>
           <div className="space-y-4 mb-8 text-left">
             <p className="text-gray-300">✓ Step-by-step guide to building profitable online businesses</p>
